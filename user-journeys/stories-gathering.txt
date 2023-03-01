@@ -1,0 +1,50 @@
+Customer: 
+    Opens website 
+    Searches for an item 
+    Adds item to cart
+
+    branch: places and order 
+        enters phone number or email 
+        submits an order
+    Receives a call:
+            *Shipping questions 
+            *Payment instructions 
+            *Link to track order status 
+        Make payment
+        Track order
+    
+    branch: Saves an order
+        Customer downloads the invoice 
+
+Sales Agents:
+    Logs in to portal
+    Receives an order form Customer
+    Calls a client or message a client 
+        Shipping questions - Physical address, require shipping
+        Confirm orders
+    Places order
+        Agent ID, is attached to the order, to be used for commission later
+        Once an agent places an order, it goes to accounting for debiting 
+        Here a client has not yet received payment instructions 
+    Order status is updated
+    Check inventory    
+    Check commission
+
+Accounts:
+    Logs in to Portal
+    Compute agent commission
+    Debit an order 
+    Update inventory
+    Receives payment
+    Places a shipping request
+
+
+Shipping:
+    Gets a shipping order
+    Process the order
+    Place an operations order
+
+Operations:
+    Call dispatch 
+    Chat 
+

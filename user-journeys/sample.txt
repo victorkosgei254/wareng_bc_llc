@@ -1,0 +1,25 @@
+<project="wareng_bc_llc">
+ -----------------------BUSINESS NEEDS---------------------
+    <personas>
+        <persona name="customer">
+            <story>
+                <goal>I want to </goal>
+                <value> So that I can </value>
+            </story>
+        </persona>
+        .
+        .
+        .
+        <persona name="admin">
+            <story>
+                .
+                .
+            </story>
+        </persona>
+    </personas>
+
+---------------------
+    <user-journeys>
+
+    </user-journeys>
+</project>
